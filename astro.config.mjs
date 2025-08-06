@@ -8,19 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'NexusTek Winners Circle Breakfast Series',
 			social: [{ icon: 'youtube', label: 'Podcast', href: 'https://www.brighttalk.com/channel/20887' }],
-			sidebar: [
-				{
-					label: '',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
+
 		}),
 	],
 });
