@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'NexusTek Winners Circle',
+			title: 'NexusTek Winners Circle Breakfast Series',
 			social: [{ icon: 'youtube', label: 'Podcast', href: 'https://www.brighttalk.com/channel/20887' }],
 			sidebar: [
 				{
