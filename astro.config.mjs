@@ -6,11 +6,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'NexusTek Winners Circle',
+			social: [{ icon: 'youtube', label: 'Podcast', href: 'https://www.brighttalk.com/channel/20887' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: '',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
